@@ -1,26 +1,66 @@
 
 .main{color:red; background-color: black; text-align:center; 
-    border-style:solid; border-color:white; border-width: 3px;}
+    border-style:solid; border-color:white; border-width: 10px;
+    padding:25px;
+    text-shadow: 2px 2px white}
 
 .sub{color:white; background-color: black; border-style:solid;
-    border-width: 3px;}
+    font-size: 30px;
+    border-width: 10px;
+    padding: 25px; 
+    padding-left:70px; margin: 50px;
+    text-align: center;
+    text-shadow: 2px 2px red;    
+    }
 
-p{font-family:georgia,serif; font-size: 25px; line-height:25px}
+p{font-family:georgia,serif; font-size: 25px; line-height:25px; text-align: center;}
 
 table{font-family: georgia, serif; border-style:solid; 
-    background-color:white; width:50%; margin:35px; border-collapse: collapse;}
+    background-color:white;
+    border-collapse: collapse;
+    margin: 50px;
+    
+    }
 
     .th{background-color: red; font-size: 25px;}
 
     .td2{text-align: center; font-size:20px}
 
-    .td1{font-size: 20px;}
+    .td1{font-size: 25px;}
 
-    table,th,td {border: 3px solid black}
+    table,th,td {border: 5px solid black; width:90%; margin-left: 55px;}
 
     td, th{padding:25px}
+    
 
 body {background-color: grey;}
 
+img{width:250px;
+    height: 250px;
+    border: 10px solid black;
+    padding:20px;
+    margin:10px;
+    margin-left: 45px; 
+    
 
+}
+#object1{margin-left: 90px;}
+#object4{margin-left: 290Px;}
+
+#object1:hover{background-color: red;}
+#object2:hover{background-color: red;}
+#object3:hover{background-color: red;}
+#object4:hover{background-color: red;}
+#object5:hover{background-color: red;}
+
+
+a:link {color: black;}
+
+a:visited {color: red}
+
+a:hover {color:gold}
+
+a:active {color:grey}
+
+figcaption{color:red; object-position: 20px;}
 
